@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Georgia;
+}
+
+button {
+  background: rgba(82, 186, 179, .75);
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  font-family: Georgia;
+}
+
+button:hover,
+button:focus {
+  background: rgba(82, 186, 179, 1);
+  text-transform: uppercase;
+}
+
+#placeHolder {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  margin: 30px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 5em;
+}
